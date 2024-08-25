@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+</head>
+<body>
+    <main>
+       <!-- 
+         <div class="section-left">
+            <h1>Desafie seus amigos: decifre mensagens secretas!</h1>
+            <input type="text" class="container_input" id="inputText" placeholder="Digite seu texto aqui">
+            <div class="buttons">
+                <button onclick="criptografarTexto()" id="botaoCriptografar">Criptografar</button>
+                <button onclick="descriptografarTexto()" id="botaoDescriptografar">Descriptografar</button>
+            </div>
+            <small>Apenas letras minúsculas e sem acento.</small>
+        </div>
+        <section class="section-right">
+            <img src="magic-star.png" alt="Ícone de estrela mágica" class="icon-star">
+            <p id="outputText">Nenhuma mensagem encontrada</p>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button onclick="copiarTexto()" id="botaoCopiar">Copiar</button>
+        </section>
+       -->
+       <div class="decodificador">
+          <header>
+            <div class="Logotipo"> Alura </div>
+            <div class="Sublogo"> By Thais Mesquita </div>
+          </header>
+
+          <div class="area">
+            <section class="sectionOne">
+            <div class="separacao">
+              <div>
+                <h1 class="titulo">Desafie seus amigos: decifre mensagens secretas!</h1>
+                <p class="paragrafo">Descubra um novo jeito de se comunicar! Transforme suas mensagens em códigos misteriosos e desafie seus amigos a decifrá-los. </p>
+              </div>
+              <textarea class="container_input" id="inputText" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+            <div class="flextest">
+            <div><small>Apenas letras minúsculas e sem acento.</small></div>
+              <div class="buttons"> 
+                <button class= "botaotest" onclick="criptografarTexto()" id="botaoCriptografar">Criptografar</button>
+                <button class="botaotestedois"   onclick="descriptografarTexto()" id="botaoDescriptografar">Descriptografar</button>
+                <div>
+              </div>
+              </div>
+            </div>
+            </section>
+
+            <section class="sectionTwo">
+              <img src="magic-star.png" alt="Girl in a jacket" width="300" height="400">
+              <div class="mensagem">
+              <p id="outputText">Nenhuma mensagem encontrada</p>
+              <button class="botaotres" onclick="copiarTexto()" id="botaoCopiar">Copiar texto criptografado</button>
+            </div>
+            </section>
+          </div>
+       </div> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
